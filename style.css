@@ -294,3 +294,42 @@ body {
     align-items: center;
     justify-content: center;
 }
+.cards-container {
+    width: 80%;
+    margin: 30px auto;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+.card p {
+    color: #64748b;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card h2 {
+    font-size: 40px;
+    color: #111827;
+    margin: 15px 0;
+}
+
+.card .increase {
+    color: #16a34a;
+}
+
+.card .decrease {
+    color: #ef4444;
+}
