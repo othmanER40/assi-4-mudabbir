@@ -1,0 +1,60 @@
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .sidebar {
+        width: 98px;
+        padding: 15px 10px;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .nav-item a {
+        justify-content: center;
+        padding: 15px 10px;
+    }
+
+    .nav-item span {
+        display: none;
+    }
+
+    /* Quick actions */
+    .quick-actions h3 {
+        display: none;
+    }
+
+    .action-item {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .action-item span {
+        display: none;
+    }
+
+    .action-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-icon {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        margin-right: 0;
+    }
+}
