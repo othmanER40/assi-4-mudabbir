@@ -159,3 +159,138 @@ body {
     background-color: #f8fafc;
     border-radius: 12px;
 }
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+
+    width: 80%;
+    margin: 30px auto ;
+    margin-right:300px ;
+    padding: 30px;
+    box-sizing: border-box;
+
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 22px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #111827;
+}
+
+.logo-text p {
+    margin: 5px 0 0;
+    color: #64748b;
+    font-size: 16px;
+}
+
+.logo-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #2563eb, #4338ca);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.online-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: #f0fdf4;
+    border: 1px solid #dcfce7;
+    border-radius: 12px;
+    color: #15803d;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background: #4ade80;
+    border-radius: 50%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    direction: ltr;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    background: white;
+}
+
+.profile-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.header-btn {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    background: #f8fafc;
+    color: #475569;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.notification-count {
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    background: #ef3340;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
