@@ -55,6 +55,7 @@
   }
 
   @media screen and (max-width: 600px) {
+    .finance-dashboard{display: flex;flex-direction: column;margin: auto;}
     .cards-container {
       display: flex;
       flex-direction: column;
